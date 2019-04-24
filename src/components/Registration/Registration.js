@@ -34,7 +34,7 @@ export class Registration extends Component {
     render() {
         const { Username, LastName, Email } = this.state
         return (
-            <div className="registrationform">
+            <div className="container-fluid registrationform">
                 <h1>registartion form</h1>
                 <form onSubmit={this.submitdetails}>
                     <div className="form-group formFeilds">
