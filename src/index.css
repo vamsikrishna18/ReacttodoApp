@@ -12,7 +12,7 @@ code {
 
 body {
   padding: 50px;
-  background-color: #66ccff;
+  background-color: #66ccff !important;
   font-family: sans-serif;
   align-content: center;
   justify-content: center

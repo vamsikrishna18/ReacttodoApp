@@ -6,12 +6,13 @@
     padding: 10px;
     font-size: 16px;
     border: 2px solid #fff;
-    width: 165px;
+    width: 365px;
 }
 
 .TodolistMain .header button {
-    padding: 10px;
+    padding: 6px;
     font-size: 16px;
+    width: 100px;
     margin: 0px;
     background-color: #0066ff;
     color: #fff;
