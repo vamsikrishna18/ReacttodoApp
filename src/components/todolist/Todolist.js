@@ -41,11 +41,13 @@ class TodolistComponent extends Component {
 
     render() {
         return (
-            <div className="TodolistMain">
+            <div className="container-fluid TodolistMain">
                 <div className="header">
                     <form onSubmit={this.addItem}>
-                        <input type="text" ref={(a) => this._inputElement = a} placeholder="Enter  task"></input>&nbsp;&nbsp;
-                        <button type="submit">Add</button>
+                        <div className="row ">
+                            <span className="col-sm-4"><input type="text" ref={(a) => this._inputElement = a} placeholder="Enter  task" className="form-control"></input></span>
+                            <span className="col-sm-2"><button className="btn btn-primary" type="submit">Add</button></span>
+                        </div>
                     </form>
                 </div>
                 <TodolistItems entries={this.state.items} delete={this.deletItems}></TodolistItems>
