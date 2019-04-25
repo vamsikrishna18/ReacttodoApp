@@ -4,7 +4,7 @@ export class redux extends Component {
     render() {
         return (
             <div>
-                <h1>return the redux store</h1>
+                <h1>hello redux has been introduced</h1>
             </div>
         )
     }
